@@ -6,8 +6,9 @@ Bundle Identifier: org.voice.demo.anki.www
 Display Name: AnkiVoice
 React native version: v0.48.4 (I think)
 
-1) npm install -g create-react-native-app
+1) npm install -g create-react-native-app (?optional?)
 x) cd to Anki folder and run 'npm install'
+xX) xcode Product->Scheme->Manage Schemes click '+' at the Target to select "React" and set the React is shared.
 2) Select AgC iphone in xcode
 4) under build settings set to iOS version that you have
 3) Click run
